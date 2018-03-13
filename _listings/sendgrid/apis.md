@@ -35,7 +35,7 @@ apis:
   tags: Versions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/versions/master/_listings/sendgrid/templates-template-id-versions-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/versions/master/_listings/sendgrid/templates-template-id-versions-version-id-delete.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
