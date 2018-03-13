@@ -33,7 +33,7 @@ apis:
   tags: Versions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/versions/master/_listings/akamai/papi-v0-properties-propertyid-versions-contractid,groupid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/versions/master/_listings/akamai/createfromversion-post.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
