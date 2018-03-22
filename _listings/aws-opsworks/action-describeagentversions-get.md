@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeAgentVersions&k=1:
+  /?Action=DescribeAgentVersions:
     get:
       summary: ' Describe Agent Versions '
       description: Describes the available AWS OpsWorks Stacks agent versions
