@@ -25,9 +25,9 @@ tags:
 - marketing
 - Marketig
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/versions/master/_listings/aws-pinpoint/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/aws-pinpoint/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS Pinpoint API
@@ -39,7 +39,7 @@ apis:
   tags: Versions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/versions/master/_listings/aws-pinpoint/apps-application-id-campaigns-campaign-id-versions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/aws-pinpoint/apps-application-id-campaigns-campaign-id-versions-get.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/blogs/aws/amazon-pinpoint-hit-your-targets-with-aws/
