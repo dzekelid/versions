@@ -12,9 +12,9 @@ tags:
 - Stack Network
 - Microsoft
 - Applications
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/versions/master/_listings/azure-service-fabric/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/azure-service-fabric/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure Service Fabric API
@@ -26,7 +26,7 @@ apis:
   tags: Versions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/versions/master/_listings/azure-service-fabric/subscriptions-subscriptionid-providers-microsoft-servicefabric-locations-location-environments-environment-clusterversions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/azure-service-fabric/subscriptions-subscriptionid-providers-microsoft-servicefabric-locations-location-environments-environment-clusterversions-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/service-fabric/
