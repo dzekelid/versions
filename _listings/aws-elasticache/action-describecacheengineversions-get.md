@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeCacheEngineVersions&k=1:
+  /?Action=DescribeCacheEngineVersions:
     get:
       summary: ' Describe Cache Engine Versions '
       description: |-
