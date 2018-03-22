@@ -33,7 +33,7 @@ apis:
   tags: Versions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/akamai/cloudlets-api-v2-policies-policyid-versions-version-rules-akaruleid-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/akamai/cloudlets-api-v2-origins-originid-versions-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
