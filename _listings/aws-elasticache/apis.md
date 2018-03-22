@@ -19,9 +19,9 @@ tags:
 - Cache
 - Availability
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/versions/master/_listings/aws-elasticache/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/aws-elasticache/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Amazon ElastiCache API
@@ -33,7 +33,7 @@ apis:
   tags: Versions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/versions/master/_listings/aws-elasticache/action-describecacheengineversions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/aws-elasticache/action-describecacheengineversions-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/Welcome.html
