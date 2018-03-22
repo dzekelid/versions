@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListPolicyVersions&k=1:
+  /?Action=ListPolicyVersions:
     get:
       summary: ' List Policy Versions '
       description: Lists the versions of the specified policy and identifies the default
