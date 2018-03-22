@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetDefaultPolicyVersion&k=1:
+  /?Action=SetDefaultPolicyVersion:
     get:
       summary: ' Set Default Policy Version '
       description: |-
