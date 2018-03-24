@@ -27,7 +27,7 @@ apis:
   tags: Versions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/google-tag-manager/accounts-accountid-containers-containerid-versions-containerversionid-publish-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/google-tag-manager/accounts-accountid-containers-containerid-versions-containerversionid-restore-post.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/tag-manager/api/v1/authorization
