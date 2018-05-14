@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Tag Manager
-  description: Accesses Tag Manager accounts and containers.
+  title: Google Tag Manager API Get Container Versions
+  description: Lists all Container Versions of a GTM Container.
   contact:
     name: Google
     url: https://google.com
