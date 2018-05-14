@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Pinpoint API
+  title: AWS Pinpoint API Campaign Versions List
   version: 1.0.0
+  description: Use the GET method to request information about your campaign versions.
 schemes:
 - http
 produces:
