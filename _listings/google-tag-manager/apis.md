@@ -28,17 +28,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/google-tag-manager/accounts-accountid-containers-containerid-versions-containerversionid-undelete-post.md
-- name: Google Tag Manager API Publish Container Version
-  description: Publishes a Container Version.
+- name: Google Tag Manager API Restore Container Version
+  description: Restores a Container Version. This will overwrite the container's current
+    configuration (including its variables, triggers and tags). The operation will
+    not have any effect on the version that is being served (i.e. the published version).
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/googl_tag_manager_gplus-250.png
   humanURL: https://developers.google.com/tag-manager/
   baseURL: http:://www.googleapis.com//tagmanager/v1
   tags: Versions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/google-tag-manager/accounts-accountid-containers-containerid-versions-containerversionid-publish-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/google-tag-manager/accounts-accountid-containers-containerid-versions-containerversionid-restore-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/google-tag-manager/accounts-accountid-containers-containerid-versions-containerversionid-publish-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/google-tag-manager/accounts-accountid-containers-containerid-versions-containerversionid-restore-post-postman.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/tag-manager/api/v1/authorization
