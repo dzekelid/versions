@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Tag Manager
-  description: Accesses Tag Manager accounts and containers.
+  title: Google Tag Manager API Restore Container Version
+  description: Restores a Container Version. This will overwrite the container's current
+    configuration (including its variables, triggers and tags). The operation will
+    not have any effect on the version that is being served (i.e. the published version).
   contact:
     name: Google
     url: https://google.com
