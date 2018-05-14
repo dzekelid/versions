@@ -28,17 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/google-tag-manager/accounts-accountid-containers-containerid-versions-containerversionid-undelete-post.md
-- name: Google Tag Manager API Delete Container Version
-  description: Deletes a Container Version.
+- name: Google Tag Manager API Get Container Version
+  description: Gets a Container Version.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/googl_tag_manager_gplus-250.png
   humanURL: https://developers.google.com/tag-manager/
   baseURL: http:://www.googleapis.com//tagmanager/v1
   tags: Versions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/google-tag-manager/accounts-accountid-containers-containerid-versions-containerversionid-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/google-tag-manager/accounts-accountid-containers-containerid-versions-containerversionid-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/google-tag-manager/accounts-accountid-containers-containerid-versions-containerversionid-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/google-tag-manager/accounts-accountid-containers-containerid-versions-containerversionid-get-postman.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/tag-manager/api/v1/authorization
