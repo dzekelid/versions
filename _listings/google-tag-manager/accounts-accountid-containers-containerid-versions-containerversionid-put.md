@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Tag Manager
-  description: Accesses Tag Manager accounts and containers.
+  title: Google Tag Manager API Update Container Version
+  description: Updates a Container Version.
   contact:
     name: Google
     url: https://google.com
