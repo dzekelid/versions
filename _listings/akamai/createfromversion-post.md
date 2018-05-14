@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Create a New Property Version
+  description: Create a New Property Version
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,15 +19,15 @@ paths:
       description: Create a New Property Version
       operationId: createfromversion
       parameters:
-      - in: String
+      - in: query
         name: contractId
         description: Unique identifier for the contract
         type: string
-      - in: String
+      - in: query
         name: groupId
         description: Unique identifier for the group
         type: string
-      - in: String
+      - in: query
         name: propertyId
         description: Unique identifier for the property
         type: string
