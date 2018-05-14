@@ -31,17 +31,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/aws-identity-and-access-management/action-setdefaultpolicyversion-get.md
-- name: AWS Identity and Access Management API List Policy Versions
+- name: AWS Identity and Access Management API Set Default Policy Version
   description: |-
-    Lists information about the versions of the specified managed policy, including the
-          version that is currently set as the policy's default version.
+    Sets the specified version of the specified policy as the policy's default (operative)
+          version.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
   humanURL: https://aws.amazon.com/iam/
   baseURL: http:://{host}//
   tags: Versions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/aws-identity-and-access-management/action-listpolicyversions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/aws-identity-and-access-management/action-setdefaultpolicyversion-get.md
 x-common:
 - type: x-change-log
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=323
