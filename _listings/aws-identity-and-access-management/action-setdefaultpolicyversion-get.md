@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API Set Default Policy Version
   version: 1.0.0
+  description: |-
+    Sets the specified version of the specified policy as the policy's default (operative)
+          version.
 schemes:
 - http
 produces:
