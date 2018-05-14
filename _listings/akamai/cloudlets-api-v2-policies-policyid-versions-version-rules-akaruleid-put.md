@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Update a Version Rule
+  description: Update a Version Rule
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,15 +19,15 @@ paths:
       description: Update a Version Rule
       operationId: cloudletsapiv2policiespolicyidversionsversionrulesakaruleid
       parameters:
-      - in: String
+      - in: query
         name: akaRuleId
         description: The ID of the rule within the policy version
         type: string
-      - in: Number
+      - in: query
         name: policyId
         description: The ID of the policy
         type: string
-      - in: Number
+      - in: query
         name: version
         description: The version number of the policy
         type: string
