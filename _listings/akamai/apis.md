@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API Get a Rule Tree&#8217;s Digest
-  description: Get a Rule Tree&#8217;s Digest
+- name: Akamai API Update a Property Version&#8217;s Rule Tree
+  description: Update a Property Version&#8217;s Rule Tree
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Versions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/akamai/papi-v0-properties-propertyid-versions-propertyversion-rules-head.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/akamai/papi-v0-properties-propertyid-versions-propertyversion-rules-put.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
