@@ -36,11 +36,12 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templates-template-id-versions-version-id-activate-post.md
-- name: SendGrid Patch Templates Template  Versions Version
+- name: SendGrid Add Templates Template  Versions Version  Activate
   description: |-
-    **This endpoint allows you to edit a version of one of your transactional templates.**
+    **This endpoint allows you to activate a version of one of your templates.**
 
     Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
 
     For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
 
@@ -48,14 +49,14 @@ apis:
     | URI Parameter | Type | Description |
     |---|---|---|
     | template_id | string | The ID of the original template |
-    | version_id | string | The ID of the template version |
+    | version_id | string |  The ID of the template version |
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
   humanURL: https://sendgrid.com/
   baseURL: https://api.sendgrid.com//v3
   tags: Versions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templates-template-id-versions-version-id-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templates-template-id-versions-version-id-activate-post.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
