@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API List Policy Versions
   version: 1.0.0
+  description: |-
+    Lists information about the versions of the specified managed policy, including the
+          version that is currently set as the policy's default version.
 schemes:
 - http
 produces:
