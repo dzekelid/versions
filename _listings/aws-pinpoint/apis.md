@@ -40,7 +40,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/aws-pinpoint/apps-application-id-campaigns-campaign-id-versions-get.md
+- name: AWS Pinpoint API Campaign Versions List
+  description: Use the GET method to request information about your campaign versions.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-pinpoint.jpg
+  humanURL: https://aws.amazon.com/pinpoint/
+  baseURL: http:://{host}//
+  tags: Versions
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/aws-pinpoint/apps-application-id-campaigns-campaign-id-versions-get.md
 x-common:
+- type: x-blog
+  url: https://aws.amazon.com/blogs/aws/amazon-pinpoint-hit-your-targets-with-aws/
+- type: x-documentation
+  url: http://docs.aws.amazon.com/pinpoint/latest/apireference/welcome.html
+- type: x-faq
+  url: https://aws.amazon.com/pinpoint/faqs/
+- type: x-pricing
+  url: https://aws.amazon.com/pinpoint/pricing/
+- type: x-website
+  url: https://aws.amazon.com/pinpoint/
 - type: x-blog
   url: https://aws.amazon.com/blogs/aws/amazon-pinpoint-hit-your-targets-with-aws/
 - type: x-documentation
