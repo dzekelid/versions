@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Create a Cloudlets Origin Version
+  description: Create a Cloudlets Origin Version
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: Create a Cloudlets Origin Version
       operationId: cloudletsapiv2originsoriginidversions
       parameters:
-      - in: String
+      - in: query
         name: originId
         description: Unique identifier for the origin
         type: string
