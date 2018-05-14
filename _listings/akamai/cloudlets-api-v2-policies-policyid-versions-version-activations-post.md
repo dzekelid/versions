@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Activate a Policy Version
+  description: Activate a Policy Version
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,11 +19,11 @@ paths:
       description: Activate a Policy Version
       operationId: cloudletsapiv2policiespolicyidversionsversionactivations
       parameters:
-      - in: Number
+      - in: query
         name: policyId
         description: The ID of the policy
         type: string
-      - in: Number
+      - in: query
         name: version
         description: The version number of the policy
         type: string
