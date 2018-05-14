@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Describe Agent Versions
   version: 1.0.0
+  description: Describes the available AWS OpsWorks Stacks agent versions.
 schemes:
 - http
 produces:
