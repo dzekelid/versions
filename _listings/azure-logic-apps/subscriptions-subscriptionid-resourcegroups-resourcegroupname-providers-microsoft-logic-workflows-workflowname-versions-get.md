@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: LogicManagementClient
-  description: REST API for Azure Logic Apps.
+  title: Azure Logic Apps API Workflow Versions List
+  description: Gets a list of workflow versions.
   version: 1.0.0
 host: management.azure.com
 basePath: /
