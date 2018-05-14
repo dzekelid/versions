@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API Get a Policy Version
-  description: Get a Policy Version
+- name: Akamai API Update a Policy Version
+  description: Update a Policy Version
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Versions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/akamai/cloudlets-api-v2-policies-policyid-versions-version-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/akamai/cloudlets-api-v2-policies-policyid-versions-version-put.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
