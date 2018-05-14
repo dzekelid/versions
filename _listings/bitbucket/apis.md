@@ -26,17 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositories-username-repo-slug-versions-version-id-parameters.md
-- name: Bitbucket Get Repositories Username Repo Slug Versions Version
-  description: Get repositories username repo slug versions version
+- name: Bitbucket Parameters Repositories Username Repo Slug Versions Version
+  description: Parameters repositories username repo slug versions version
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
   humanURL: https://bitbucket.org/
   baseURL: https://api.bitbucket.org//2.0
   tags: Versions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositories-username-repo-slug-versions-version-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositories-username-repo-slug-versions-version-id-parameters.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositories-username-repo-slug-versions-version-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositories-username-repo-slug-versions-version-id-parameters-postman.md
 x-common:
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
