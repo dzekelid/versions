@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 Systems Manager API
+  title: Amazon EC2 Systems Manager API List Document Versions
   version: 1.0.0
+  description: List all versions for a document.
 schemes:
 - http
 produces:
