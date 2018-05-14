@@ -30,7 +30,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-workflows-workflowname-versions-versionid-triggers-triggername-listcallbackurl-post.md
+- name: Azure Logic Apps API Workflow Versions List
+  description: Gets a list of workflow versions.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-logic-apps-01-connectors.png
+  humanURL: https://azure.microsoft.com/en-us/services/logic-apps/
+  baseURL: http:://management.azure.com//
+  tags: Versions
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-workflows-workflowname-versions-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-workflows-workflowname-versions-get-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/logic-apps/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/logic-apps/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/logic-apps/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/logic-apps/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/logic-apps/
 - type: x-pricing
