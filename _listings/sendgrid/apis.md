@@ -36,9 +36,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templates-template-id-versions-version-id-activate-post.md
-- name: SendGrid Get Templates Template  Versions Version
+- name: SendGrid Patch Templates Template  Versions Version
   description: |-
-    **This endpoint allows you to retrieve a specific version of a template.**
+    **This endpoint allows you to edit a version of one of your transactional templates.**
 
     Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
 
@@ -48,16 +48,14 @@ apis:
     | URI Parameter | Type | Description |
     |---|---|---|
     | template_id | string | The ID of the original template |
-    | version_id | string |  The ID of the template version |
+    | version_id | string | The ID of the template version |
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
   humanURL: https://sendgrid.com/
   baseURL: https://api.sendgrid.com//v3
   tags: Versions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templates-template-id-versions-version-id-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templates-template-id-versions-version-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templates-template-id-versions-version-id-patch.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
