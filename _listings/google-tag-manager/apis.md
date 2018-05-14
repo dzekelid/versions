@@ -28,7 +28,30 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/google-tag-manager/accounts-accountid-containers-containerid-versions-containerversionid-undelete-post.md
+- name: Google Tag Manager API Get Container Versions
+  description: Lists all Container Versions of a GTM Container.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/googl_tag_manager_gplus-250.png
+  humanURL: https://developers.google.com/tag-manager/
+  baseURL: http:://www.googleapis.com//tagmanager/v1
+  tags: Versions
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/google-tag-manager/accounts-accountid-containers-containerid-versions-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/google-tag-manager/accounts-accountid-containers-containerid-versions-get-postman.md
 x-common:
+- type: x-authentication
+  url: https://developers.google.com/tag-manager/api/v1/authorization
+- type: x-change-log
+  url: https://developers.google.com/tag-manager/api/v1/changelog
+- type: x-code
+  url: https://developers.google.com/tag-manager/api/v1/libraries
+- type: x-documentation
+  url: https://developers.google.com/tag-manager/api/v1/
+- type: x-performance
+  url: https://developers.google.com/tag-manager/api/v1/performance
+- type: x-website
+  url: https://developers.google.com/tag-manager/
 - type: x-authentication
   url: https://developers.google.com/tag-manager/api/v1/authorization
 - type: x-change-log
