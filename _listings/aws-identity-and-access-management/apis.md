@@ -31,7 +31,36 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/aws-identity-and-access-management/action-setdefaultpolicyversion-get.md
+- name: AWS Identity and Access Management API List Policy Versions
+  description: |-
+    Lists information about the versions of the specified managed policy, including the
+          version that is currently set as the policy's default version.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: http:://{host}//
+  tags: Versions
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/aws-identity-and-access-management/action-listpolicyversions-get.md
 x-common:
+- type: x-change-log
+  url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=323
+- type: x-command-line-interface
+  url: http://docs.aws.amazon.com/cli/latest/reference/sts/index.html
+- type: x-documentation
+  url: http://docs.aws.amazon.com/IAM/latest/APIReference/
+- type: x-faq
+  url: https://aws.amazon.com/iam/faqs/
+- type: x-forum
+  url: https://forums.aws.amazon.com/forum.jspa?forumID=76
+- type: x-getting-started
+  url: https://aws.amazon.com/iam/getting-started/
+- type: x-partners
+  url: https://aws.amazon.com/iam/partners/
+- type: x-tools
+  url: http://aws.amazon.com/cli
+- type: x-website
+  url: https://aws.amazon.com/iam/
 - type: x-change-log
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=323
 - type: x-command-line-interface
