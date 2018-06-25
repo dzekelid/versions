@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/594-fluxio
 x-kinRank: "7"
 x-alexaRank: "3532345"
 tags: Versions
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/fluxiom/apis.md
 specificationVersion: "0.14"
 apis:
