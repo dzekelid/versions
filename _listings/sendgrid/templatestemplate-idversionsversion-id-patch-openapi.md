@@ -149,6 +149,43 @@ paths:
       - ""
       - Versions
       - Version
+  /templates/{template_id}/versions/{version_id}/activate:
+    post:
+      summary: Add Templates Template  Versions Version  Activate
+      description: |-
+        **This endpoint allows you to activate a version of one of your templates.**
+
+        Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
+
+        For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+
+        ## URI Parameters
+        | URI Parameter | Type | Description |
+        |---|---|---|
+        | template_id | string | The ID of the original template |
+        | version_id | string |  The ID of the template version |
+      operationId: templates.template_id.versions.version_id.activate.post
+      x-api-path-slug: templatestemplate-idversionsversion-idactivate-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Email
+      - Templates
+      - Template
+      - ""
+      - Versions
+      - Version
+      - ""
+      - Activate
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

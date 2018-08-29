@@ -87,6 +87,105 @@ paths:
       - ""
       - Versions
       - Version
+    get:
+      summary: Get Templates Template  Versions Version
+      description: |-
+        **This endpoint allows you to retrieve a specific version of a template.**
+
+        Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
+        For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+
+        ## URI Parameters
+        | URI Parameter | Type | Description |
+        |---|---|---|
+        | template_id | string | The ID of the original template |
+        | version_id | string |  The ID of the template version |
+      operationId: templates.template_id.versions.version_id.get
+      x-api-path-slug: templatestemplate-idversionsversion-id-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Email
+      - Templates
+      - Template
+      - ""
+      - Versions
+      - Version
+    patch:
+      summary: Patch Templates Template  Versions Version
+      description: |-
+        **This endpoint allows you to edit a version of one of your transactional templates.**
+
+        Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
+        For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+
+        ## URI Parameters
+        | URI Parameter | Type | Description |
+        |---|---|---|
+        | template_id | string | The ID of the original template |
+        | version_id | string | The ID of the template version |
+      operationId: templates.template_id.versions.version_id.patch
+      x-api-path-slug: templatestemplate-idversionsversion-id-patch
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Email
+      - Templates
+      - Template
+      - ""
+      - Versions
+      - Version
+  /templates/{template_id}/versions/{version_id}/activate:
+    post:
+      summary: Add Templates Template  Versions Version  Activate
+      description: |-
+        **This endpoint allows you to activate a version of one of your templates.**
+
+        Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
+
+        For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+
+        ## URI Parameters
+        | URI Parameter | Type | Description |
+        |---|---|---|
+        | template_id | string | The ID of the original template |
+        | version_id | string |  The ID of the template version |
+      operationId: templates.template_id.versions.version_id.activate.post
+      x-api-path-slug: templatestemplate-idversionsversion-idactivate-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Email
+      - Templates
+      - Template
+      - ""
+      - Versions
+      - Version
+      - ""
+      - Activate
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

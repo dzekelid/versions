@@ -73,6 +73,21 @@ paths:
       - Slug
       - Versions
       - Version
+    parameters:
+      summary: Parameters Repositories Username Repo Slug Versions Version
+      description: Parameters repositories username repo slug versions version
+      operationId: parametersRepositoriesUsernameRepoSlugVersionsVersion
+      x-api-path-slug: repositoriesusernamerepo-slugversionsversion-id-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Repositories
+      - Username
+      - Repo
+      - Slug
+      - Versions
+      - Version
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

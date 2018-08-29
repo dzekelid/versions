@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28554-bbc-
 x-kinRank: "7"
 x-alexaRank: "93"
 tags: Versions
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bbc/apis.md
 specificationVersion: "0.14"
 apis:
-- name: 'BBC Nitro Metadata on editorial programme versions: original, signed, audio-described,
+- name: 'BBC Nitro - Metadata on editorial programme versions: original, signed, audio-described,
     etc'
-  x-api-slug: bbc-nitro
+  x-api-slug: versions-get
   description: 'The versions feed exposes editorial "Versions" of programmes. These
     are concepts used to capture different presentations of an overall programme:
     for example, versions of a programme may include one with sign language, one with
@@ -23,25 +23,19 @@ apis:
     specific version, not merely of a programme.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28554-bbc-nitro.jpg
   humanURL: http://www.bbc.com/
-  baseURL: https://programmes.api.bbc.com//nitro/api//versions
-  tags: Versions
+  baseURL: https://programmes.api.bbc.com//nitro/api
+  tags: Media, API Provider, Broadcasts, Profiles, Publish, General Data, Historical
+    Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bbc/versions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bbc/versions-get-openapi.md
-- name: BBC Nitro
-  x-api-slug: bbc-nitro
-  description: Breaking news, sport, TV, radio and a whole lot more. The BBC informs,
-    educates and entertains - wherever you are, whatever your age.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28554-bbc-nitro.jpg
-  humanURL: http://www.bbc.com/
-  baseURL: https://programmes.api.bbc.com//nitro/api
-  tags: Versions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bbc/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://barclays.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://bbc.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/bbc-news
 - type: x-email

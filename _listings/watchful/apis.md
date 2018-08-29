@@ -8,44 +8,36 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Versions
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/watchful/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Watchful Get List Of Versions
-  x-api-slug: watchful
+- name: Watchful - Get List Of Versions
+  x-api-slug: versions-get
   description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/watchful-li-logo.jpg
-  humanURL: http://watchful.li
-  baseURL: https://watchful.li//api/v1//versions
-  tags: Versions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/watchful/versions-get-openapi.md
-- name: Watchful Find A Version By ID
-  x-api-slug: watchful
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/watchful-li-logo.jpg
-  humanURL: http://watchful.li
-  baseURL: https://watchful.li//api/v1//versions/{id}
-  tags: Versions,Id
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/watchful/versionsid-get-openapi.md
-- name: Watchful
-  x-api-slug: watchful
-  description: Watchful resulted from the need for a single, unified dashboard to
-    easily monitor all of the web sites in our portfolios. After years of evolution,
-    our solution has matured into a simple, complete and professional service.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/watchful-li-logo.jpg
   humanURL: http://watchful.li
   baseURL: https://watchful.li//api/v1
-  tags: Versions
+  tags: Monitoring, Relative Data, Service API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/watchful/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/watchful/versions-get-openapi.md
+- name: Watchful - Find A Version By ID
+  x-api-slug: versionsid-get
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/watchful-li-logo.jpg
+  humanURL: http://watchful.li
+  baseURL: https://watchful.li//api/v1
+  tags: Monitoring, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/watchful/versionsid-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://washington.metropolitan.area.transit.authority.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://watchful.stack.network
 - type: x-application-gallery
   url: https://watchful.li/apps/
 - type: x-blog

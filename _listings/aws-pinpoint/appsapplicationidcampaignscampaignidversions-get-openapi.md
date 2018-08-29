@@ -22,8 +22,8 @@ paths:
       parameters:
       - in: header
         name: accept
-        description: 'Specify the media type you will accept as a response:  application/json  A
-          JSON response body'
+        description: 'Specify the media type you will accept as a response:  application/json
+          ??? A JSON response body'
         type: string
         format: string
       - in: query
@@ -41,6 +41,46 @@ paths:
           description: OK
       tags:
       - Campaign Versions
+  /apps/application-id/segment/versions:
+    get:
+      summary: Segment Versions List
+      description: Use the GET method to request information about your segment versions.
+      operationId: getSegmentVersionsList
+      x-api-path-slug: appsapplicationidsegmentversions-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Segments
+  /apps/application-id/campaigns/campaign-id/versions/version:
+    get:
+      summary: Campaign Version Instance
+      description: Use the GET method to request information about a campaign version.
+      operationId: campaignVersionInstance
+      x-api-path-slug: appsapplicationidcampaignscampaignidversionsversion-get
+      parameters:
+      - in: header
+        name: accept
+        description: 'Specify the media type you will accept as a response:  application/json
+          ??? A JSON response body'
+        type: string
+        format: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Campaign Version
+  /apps/application-id/segments/segment-id/versions/version:
+    get:
+      summary: Segment Version Instance
+      description: Use the GET method to request information about a segment version.
+      operationId: getSegmentVersionInstance
+      x-api-path-slug: appsapplicationidsegmentssegmentidversionsversion-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Segments
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

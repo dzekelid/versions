@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS EC2 Systems Manager
 x-complete: 1
@@ -38,4 +37,27 @@ paths:
       - List
       - Document
       - Versions
----
+  /?Action=UpdateDocumentDefaultVersion:
+    get:
+      summary: Update Document Default Version
+      description: Set the default version of a document.
+      operationId: updateDocumentDefaultVersion
+      x-api-path-slug: actionupdatedocumentdefaultversion-get
+      parameters:
+      - in: query
+        name: DocumentVersion
+        description: The version of a custom document that you want to set as the
+          default version
+        type: string
+      - in: query
+        name: Name
+        description: The name of a custom document that you want to set as the default
+          version
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Document
+      - Default
+      - Version

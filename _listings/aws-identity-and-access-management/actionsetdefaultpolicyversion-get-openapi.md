@@ -44,6 +44,77 @@ paths:
           description: OK
       tags:
       - Policy Versions
+  /?Action=CreatePolicyVersion:
+    get:
+      summary: Create Policy Version
+      description: Creates a new version of the specified managed policy.
+      operationId: createPolicyVersion
+      x-api-path-slug: actioncreatepolicyversion-get
+      parameters:
+      - in: query
+        name: PolicyArn
+        description: The Amazon Resource Name (ARN) of the IAM policy to which you
+          want to add a new      version
+        type: string
+      - in: query
+        name: PolicyDocument
+        description: The JSON policy document that you want to use as the content
+          for this new version of      the policy
+        type: string
+      - in: query
+        name: SetAsDefault
+        description: Specifies whether to set this version as the policys default
+          version
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Policies
+  /?Action=DeletePolicyVersion:
+    get:
+      summary: Delete Policy Version
+      description: Deletes the specified version from the specified managed policy.
+      operationId: deletePolicyVersion
+      x-api-path-slug: actiondeletepolicyversion-get
+      parameters:
+      - in: query
+        name: PolicyArn
+        description: The Amazon Resource Name (ARN) of the IAM policy from which you
+          want to delete a      version
+        type: string
+      - in: query
+        name: VersionId
+        description: The policy version to delete
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Policies
+  /?Action=GetPolicyVersion:
+    get:
+      summary: Get Policy Version
+      description: |-
+        Retrieves information about the specified version of the specified managed policy,
+              including the policy document.
+      operationId: getPolicyVersion
+      x-api-path-slug: actiongetpolicyversion-get
+      parameters:
+      - in: query
+        name: PolicyArn
+        description: The Amazon Resource Name (ARN) of the managed policy that you
+          want information      about
+        type: string
+      - in: query
+        name: VersionId
+        description: Identifies the policy version to retrieve
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Policies
   /?Action=SetDefaultPolicyVersion:
     get:
       summary: Set Default Policy Version

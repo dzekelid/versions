@@ -7,13 +7,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitb
 x-kinRank: "8"
 x-alexaRank: "901"
 tags: Versions
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Bitbucket Get Repositories Username Repo Slug Versions
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Repositories Username Repo Slug Versions
+  x-api-slug: repositoriesusernamerepo-slugversions-get
   description: |-
     Returns the versions that have been defined in the issue tracker.
 
@@ -21,61 +21,162 @@ apis:
     tracker enabled.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/versions
-  tags: Repositories, Username, Repo, Slug, Versions
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositoriesusernamerepo-slugversions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositoriesusernamerepo-slugversions-get-openapi.md
-- name: Bitbucket Parameters Repositories Username Repo Slug Versions
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Repositories Username Repo Slug Versions
+  x-api-slug: repositoriesusernamerepo-slugversions-parameters
   description: Parameters repositories username repo slug versions
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/versions
-  tags: Repositories, Username, Repo, Slug, Versions
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositoriesusernamerepo-slugversions-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositoriesusernamerepo-slugversions-parameters-openapi.md
-- name: Bitbucket Get Repositories Username Repo Slug Versions Version
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Repositories Username Repo Slug Versions Version
+  x-api-slug: repositoriesusernamerepo-slugversionsversion-id-get
   description: Get repositories username repo slug versions version
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/versions/{version_id}
-  tags: Repositories, Username, Repo, Slug, Versions, Version
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositoriesusernamerepo-slugversionsversion-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositoriesusernamerepo-slugversionsversion-id-get-openapi.md
-- name: Bitbucket Parameters Repositories Username Repo Slug Versions Version
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Repositories Username Repo Slug Versions Version
+  x-api-slug: repositoriesusernamerepo-slugversionsversion-id-parameters
   description: Parameters repositories username repo slug versions version
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/versions/{version_id}
-  tags: Repositories, Username, Repo, Slug, Versions, Version
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositoriesusernamerepo-slugversionsversion-id-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositoriesusernamerepo-slugversionsversion-id-parameters-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: Collaborate on code with inline comments and pull requests. Manage
-    and share your Git repositories to build and ship software, as a team.
+- name: Bitbucket - Get Repositories Username Repo Slug Versions Version
+  x-api-slug: repositoriesusernamerepo-slugversionsversion-id-get
+  description: Get repositories username repo slug versions version
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
-  tags: Versions
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositoriesusernamerepo-slugversionsversion-id-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositoriesusernamerepo-slugversionsversion-id-get-openapi.md
+- name: Bitbucket - Parameters Repositories Username Repo Slug Versions Version
+  x-api-slug: repositoriesusernamerepo-slugversionsversion-id-parameters
+  description: Parameters repositories username repo slug versions version
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositoriesusernamerepo-slugversionsversion-id-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositoriesusernamerepo-slugversionsversion-id-parameters-openapi.md
+- name: Bitbucket - Get Repositories Username Repo Slug Versions Version
+  x-api-slug: repositoriesusernamerepo-slugversionsversion-id-get
+  description: Get repositories username repo slug versions version
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositoriesusernamerepo-slugversionsversion-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositoriesusernamerepo-slugversionsversion-id-get-openapi.md
+- name: Bitbucket - Parameters Repositories Username Repo Slug Versions Version
+  x-api-slug: repositoriesusernamerepo-slugversionsversion-id-parameters
+  description: Parameters repositories username repo slug versions version
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositoriesusernamerepo-slugversionsversion-id-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositoriesusernamerepo-slugversionsversion-id-parameters-openapi.md
+- name: Bitbucket - Parameters Repositories Username Repo Slug Versions Version
+  x-api-slug: repositoriesusernamerepo-slugversionsversion-id-parameters
+  description: Parameters repositories username repo slug versions version
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositoriesusernamerepo-slugversionsversion-id-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositoriesusernamerepo-slugversionsversion-id-parameters-openapi.md
+- name: Bitbucket - Get Repositories Username Repo Slug Versions Version
+  x-api-slug: repositoriesusernamerepo-slugversionsversion-id-get
+  description: Get repositories username repo slug versions version
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositoriesusernamerepo-slugversionsversion-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositoriesusernamerepo-slugversionsversion-id-get-openapi.md
+- name: Bitbucket - Parameters Repositories Username Repo Slug Versions Version
+  x-api-slug: repositoriesusernamerepo-slugversionsversion-id-parameters
+  description: Parameters repositories username repo slug versions version
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositoriesusernamerepo-slugversionsversion-id-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositoriesusernamerepo-slugversionsversion-id-parameters-openapi.md
+- name: Bitbucket - Get Repositories Username Repo Slug Versions Version
+  x-api-slug: repositoriesusernamerepo-slugversionsversion-id-get
+  description: Get repositories username repo slug versions version
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositoriesusernamerepo-slugversionsversion-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/bitbucket/repositoriesusernamerepo-slugversionsversion-id-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://bigoven.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://bitbucket.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/bitbucket
 - type: x-developer

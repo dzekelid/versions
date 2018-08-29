@@ -7,13 +7,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgr
 x-kinRank: "9"
 x-alexaRank: "10000"
 tags: Versions
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
-- name: SendGrid Add Templates Template  Versions
-  x-api-slug: sendgrid
+- name: SendGrid - Add Templates Template  Versions
+  x-api-slug: templatestemplate-idversions-post
   description: |-
     **This endpoint allows you to create a new version of a template.**
 
@@ -22,13 +22,14 @@ apis:
     For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//templates/{template_id}/versions
-  tags: Email,Templates, Template, , Versions
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversions-post-openapi.md
-- name: SendGrid Delete Templates Template  Versions Version
-  x-api-slug: sendgrid
+- name: SendGrid - Delete Templates Template  Versions Version
+  x-api-slug: templatestemplate-idversionsversion-id-delete
   description: |-
     **This endpoint allows you to delete one of your transactional template versions.**
 
@@ -43,13 +44,14 @@ apis:
     | version_id | string | The ID of the template version |
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//templates/{template_id}/versions/{version_id}
-  tags: Email,Templates, Template, , Versions, Version
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-id-delete-openapi.md
-- name: SendGrid Get Templates Template  Versions Version
-  x-api-slug: sendgrid
+- name: SendGrid - Get Templates Template  Versions Version
+  x-api-slug: templatestemplate-idversionsversion-id-get
   description: |-
     **This endpoint allows you to retrieve a specific version of a template.**
 
@@ -64,15 +66,16 @@ apis:
     | version_id | string |  The ID of the template version |
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//templates/{template_id}/versions/{version_id}
-  tags: Email,Templates, Template, , Versions, Version
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-id-get-openapi.md
-- name: SendGrid Patch Templates Template  Versions Version
-  x-api-slug: sendgrid
+- name: SendGrid - Patch Templates Template  Versions Version
+  x-api-slug: templatestemplate-idversionsversion-id-patch
   description: |-
     **This endpoint allows you to edit a version of one of your transactional templates.**
 
@@ -87,13 +90,14 @@ apis:
     | version_id | string | The ID of the template version |
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//templates/{template_id}/versions/{version_id}
-  tags: Email,Templates, Template, , Versions, Version
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-id-patch-openapi.md
-- name: SendGrid Add Templates Template  Versions Version  Activate
-  x-api-slug: sendgrid
+- name: SendGrid - Add Templates Template  Versions Version  Activate
+  x-api-slug: templatestemplate-idversionsversion-idactivate-post
   description: |-
     **This endpoint allows you to activate a version of one of your templates.**
 
@@ -109,27 +113,474 @@ apis:
     | version_id | string |  The ID of the template version |
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//templates/{template_id}/versions/{version_id}/activate
-  tags: Email,Templates, Template, , Versions, Version, , Activate
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-idactivate-post-openapi.md
-- name: SendGrid
-  x-api-slug: sendgrid
-  description: SendGrids cloud-based email infrastructure relieves businesses of the
-    cost and complexity of maintaining custom email systems. SendGrid provides reliable
-    delivery, scalability and real-time analytics along with flexible APIs that make
-    custom integration a breeze.
+- name: SendGrid - Delete Templates Template  Versions Version
+  x-api-slug: templatestemplate-idversionsversion-id-delete
+  description: |-
+    **This endpoint allows you to delete one of your transactional template versions.**
+
+    Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
+    For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+
+    ## URI Parameters
+    | URI Parameter | Type | Description |
+    |---|---|---|
+    | template_id | string | The ID of the original template |
+    | version_id | string | The ID of the template version |
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3
-  tags: Versions
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-id-delete-openapi.md
+- name: SendGrid - Get Templates Template  Versions Version
+  x-api-slug: templatestemplate-idversionsversion-id-get
+  description: |-
+    **This endpoint allows you to retrieve a specific version of a template.**
+
+    Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
+    For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+
+    ## URI Parameters
+    | URI Parameter | Type | Description |
+    |---|---|---|
+    | template_id | string | The ID of the original template |
+    | version_id | string |  The ID of the template version |
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-id-get-openapi.md
+- name: SendGrid - Patch Templates Template  Versions Version
+  x-api-slug: templatestemplate-idversionsversion-id-patch
+  description: |-
+    **This endpoint allows you to edit a version of one of your transactional templates.**
+
+    Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
+    For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+
+    ## URI Parameters
+    | URI Parameter | Type | Description |
+    |---|---|---|
+    | template_id | string | The ID of the original template |
+    | version_id | string | The ID of the template version |
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-id-patch-openapi.md
+- name: SendGrid - Add Templates Template  Versions Version  Activate
+  x-api-slug: templatestemplate-idversionsversion-idactivate-post
+  description: |-
+    **This endpoint allows you to activate a version of one of your templates.**
+
+    Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
+
+    For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+
+    ## URI Parameters
+    | URI Parameter | Type | Description |
+    |---|---|---|
+    | template_id | string | The ID of the original template |
+    | version_id | string |  The ID of the template version |
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-idactivate-post-openapi.md
+- name: SendGrid - Delete Templates Template  Versions Version
+  x-api-slug: templatestemplate-idversionsversion-id-delete
+  description: |-
+    **This endpoint allows you to delete one of your transactional template versions.**
+
+    Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
+    For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+
+    ## URI Parameters
+    | URI Parameter | Type | Description |
+    |---|---|---|
+    | template_id | string | The ID of the original template |
+    | version_id | string | The ID of the template version |
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-id-delete-openapi.md
+- name: SendGrid - Get Templates Template  Versions Version
+  x-api-slug: templatestemplate-idversionsversion-id-get
+  description: |-
+    **This endpoint allows you to retrieve a specific version of a template.**
+
+    Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
+    For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+
+    ## URI Parameters
+    | URI Parameter | Type | Description |
+    |---|---|---|
+    | template_id | string | The ID of the original template |
+    | version_id | string |  The ID of the template version |
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-id-get-openapi.md
+- name: SendGrid - Patch Templates Template  Versions Version
+  x-api-slug: templatestemplate-idversionsversion-id-patch
+  description: |-
+    **This endpoint allows you to edit a version of one of your transactional templates.**
+
+    Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
+    For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+
+    ## URI Parameters
+    | URI Parameter | Type | Description |
+    |---|---|---|
+    | template_id | string | The ID of the original template |
+    | version_id | string | The ID of the template version |
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-id-patch-openapi.md
+- name: SendGrid - Add Templates Template  Versions Version  Activate
+  x-api-slug: templatestemplate-idversionsversion-idactivate-post
+  description: |-
+    **This endpoint allows you to activate a version of one of your templates.**
+
+    Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
+
+    For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+
+    ## URI Parameters
+    | URI Parameter | Type | Description |
+    |---|---|---|
+    | template_id | string | The ID of the original template |
+    | version_id | string |  The ID of the template version |
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-idactivate-post-openapi.md
+- name: SendGrid - Add Templates Template  Versions Version  Activate
+  x-api-slug: templatestemplate-idversionsversion-idactivate-post
+  description: |-
+    **This endpoint allows you to activate a version of one of your templates.**
+
+    Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
+
+    For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+
+    ## URI Parameters
+    | URI Parameter | Type | Description |
+    |---|---|---|
+    | template_id | string | The ID of the original template |
+    | version_id | string |  The ID of the template version |
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-idactivate-post-openapi.md
+- name: SendGrid - Add Templates Template  Versions Version  Activate
+  x-api-slug: templatestemplate-idversionsversion-idactivate-post
+  description: |-
+    **This endpoint allows you to activate a version of one of your templates.**
+
+    Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
+
+    For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+
+    ## URI Parameters
+    | URI Parameter | Type | Description |
+    |---|---|---|
+    | template_id | string | The ID of the original template |
+    | version_id | string |  The ID of the template version |
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-idactivate-post-openapi.md
+- name: SendGrid - Patch Templates Template  Versions Version
+  x-api-slug: templatestemplate-idversionsversion-id-patch
+  description: |-
+    **This endpoint allows you to edit a version of one of your transactional templates.**
+
+    Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
+    For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+
+    ## URI Parameters
+    | URI Parameter | Type | Description |
+    |---|---|---|
+    | template_id | string | The ID of the original template |
+    | version_id | string | The ID of the template version |
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-id-patch-openapi.md
+- name: SendGrid - Patch Templates Template  Versions Version
+  x-api-slug: templatestemplate-idversionsversion-id-patch
+  description: |-
+    **This endpoint allows you to edit a version of one of your transactional templates.**
+
+    Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
+    For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+
+    ## URI Parameters
+    | URI Parameter | Type | Description |
+    |---|---|---|
+    | template_id | string | The ID of the original template |
+    | version_id | string | The ID of the template version |
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-id-patch-openapi.md
+- name: SendGrid - Add Templates Template  Versions Version  Activate
+  x-api-slug: templatestemplate-idversionsversion-idactivate-post
+  description: |-
+    **This endpoint allows you to activate a version of one of your templates.**
+
+    Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
+
+    For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+
+    ## URI Parameters
+    | URI Parameter | Type | Description |
+    |---|---|---|
+    | template_id | string | The ID of the original template |
+    | version_id | string |  The ID of the template version |
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-idactivate-post-openapi.md
+- name: SendGrid - Get Templates Template  Versions Version
+  x-api-slug: templatestemplate-idversionsversion-id-get
+  description: |-
+    **This endpoint allows you to retrieve a specific version of a template.**
+
+    Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
+    For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+
+    ## URI Parameters
+    | URI Parameter | Type | Description |
+    |---|---|---|
+    | template_id | string | The ID of the original template |
+    | version_id | string |  The ID of the template version |
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-id-get-openapi.md
+- name: SendGrid - Get Templates Template  Versions Version
+  x-api-slug: templatestemplate-idversionsversion-id-get
+  description: |-
+    **This endpoint allows you to retrieve a specific version of a template.**
+
+    Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
+    For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+
+    ## URI Parameters
+    | URI Parameter | Type | Description |
+    |---|---|---|
+    | template_id | string | The ID of the original template |
+    | version_id | string |  The ID of the template version |
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-id-get-openapi.md
+- name: SendGrid - Patch Templates Template  Versions Version
+  x-api-slug: templatestemplate-idversionsversion-id-patch
+  description: |-
+    **This endpoint allows you to edit a version of one of your transactional templates.**
+
+    Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
+    For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+
+    ## URI Parameters
+    | URI Parameter | Type | Description |
+    |---|---|---|
+    | template_id | string | The ID of the original template |
+    | version_id | string | The ID of the template version |
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-id-patch-openapi.md
+- name: SendGrid - Delete Templates Template  Versions Version
+  x-api-slug: templatestemplate-idversionsversion-id-delete
+  description: |-
+    **This endpoint allows you to delete one of your transactional template versions.**
+
+    Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
+    For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+
+    ## URI Parameters
+    | URI Parameter | Type | Description |
+    |---|---|---|
+    | template_id | string | The ID of the original template |
+    | version_id | string | The ID of the template version |
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-id-delete-openapi.md
+- name: SendGrid - Delete Templates Template  Versions Version
+  x-api-slug: templatestemplate-idversionsversion-id-delete
+  description: |-
+    **This endpoint allows you to delete one of your transactional template versions.**
+
+    Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
+    For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+
+    ## URI Parameters
+    | URI Parameter | Type | Description |
+    |---|---|---|
+    | template_id | string | The ID of the original template |
+    | version_id | string | The ID of the template version |
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-id-delete-openapi.md
+- name: SendGrid - Get Templates Template  Versions Version
+  x-api-slug: templatestemplate-idversionsversion-id-get
+  description: |-
+    **This endpoint allows you to retrieve a specific version of a template.**
+
+    Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
+    For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+
+    ## URI Parameters
+    | URI Parameter | Type | Description |
+    |---|---|---|
+    | template_id | string | The ID of the original template |
+    | version_id | string |  The ID of the template version |
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-id-get-openapi.md
+- name: SendGrid - Delete Templates Template  Versions Version
+  x-api-slug: templatestemplate-idversionsversion-id-delete
+  description: |-
+    **This endpoint allows you to delete one of your transactional template versions.**
+
+    Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
+
+    For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+
+    ## URI Parameters
+    | URI Parameter | Type | Description |
+    |---|---|---|
+    | template_id | string | The ID of the original template |
+    | version_id | string | The ID of the template version |
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/sendgrid/templatestemplate-idversionsversion-id-delete-openapi.md
 x-common:
 - type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
+- type: x-api-gallery
+  url: http://school.digger.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://sendgrid.stack.network
 - type: x-base
   url: https://api.sendgrid.com
 - type: x-blog

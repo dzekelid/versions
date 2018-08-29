@@ -94,6 +94,102 @@ paths:
       - ""
       - Versions
       - Version
+  /file_version_retentions:
+    get:
+      summary: Get File Version Retentions
+      description: Retrieves all file version retentions for the given enterprise.
+      operationId: getFileVersionRetentions
+      x-api-path-slug: file-version-retentions-get
+      parameters:
+      - in: query
+        name: disposition_action
+        description: The disposition action of the retention policy
+      - in: query
+        name: disposition_after
+        description: See content times for formatting
+      - in: query
+        name: disposition_before
+        description: See content times for formatting
+      - in: query
+        name: file_id
+        description: A file id to filter the file version retentions by
+      - in: query
+        name: file_version_id
+        description: A file version id to filter the file version retentions by
+      - in: query
+        name: limit
+        description: The maximum number of items to return in a page
+      - in: query
+        name: marker
+        description: Base 64 encoded string that represents where the paging should
+          being
+      - in: query
+        name: policy_id
+        description: A policy id to filter the file version retentions by
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - File
+      - Version
+      - Retentions
+  /file_version_retentions/{FILE_VERSION_RETENTION_ID}:
+    get:
+      summary: Get File Version Retention
+      description: Used to retrieve information about a file version retention
+      operationId: getFileVersionRetention
+      x-api-path-slug: file-version-retentionsfile-version-retention-id-get
+      parameters:
+      - in: path
+        name: FILE_VERSION_RETENTION_ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - File
+      - Version
+      - Retentions
+      - File
+      - Version
+      - Retention
+  /file_version_legal_holds:
+    get:
+      summary: Get List of File Version Legal Holds
+      description: Get list of non-deleted Holds for a single Policy.
+      operationId: getFileVersionLegalHoldPolicies
+      x-api-path-slug: file-version-legal-holds-get
+      parameters:
+      - in: query
+        name: policy_id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - File
+      - Version
+      - Legal
+      - Holds
+  /file_version_legal_holds/{ID}:
+    get:
+      summary: Get File Version Legal Hold
+      description: Get details of a single File Version Legal Hold.
+      operationId: getFileVersionLegalHoldPolicy
+      x-api-path-slug: file-version-legal-holdsid-get
+      parameters:
+      - in: path
+        name: ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - File
+      - Version
+      - Legal
+      - Holds
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

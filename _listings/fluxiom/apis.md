@@ -7,61 +7,55 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/594-fluxio
 x-kinRank: "7"
 x-alexaRank: "3532345"
 tags: Versions
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/fluxiom/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Fluxiom API Get asset versions
-  x-api-slug: fluxiom-api
+- name: Fluxiom API - Get asset versions
+  x-api-slug: apiassetsidversions-get
   description: Get asset versions
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/594-fluxiom.jpg
   humanURL: http://fluxiom.com
-  baseURL: https://{subdomain}.fluxiom.com//api/{format}//api/assets/ID/versions
-  tags: Assets,Versions
+  baseURL: https://{subdomain}.fluxiom.com//api/{format}
+  tags: Storage, File, Technology, SaaS, internet, API Provider, Photos, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/fluxiom/apiassetsidversions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/fluxiom/apiassetsidversions-get-openapi.md
-- name: Fluxiom API Create asset version
-  x-api-slug: fluxiom-api
+- name: Fluxiom API - Create asset version
+  x-api-slug: apiassetsidversions-post
   description: Create asset version
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/594-fluxiom.jpg
   humanURL: http://fluxiom.com
-  baseURL: https://{subdomain}.fluxiom.com//api/{format}//api/assets/ID/versions
-  tags: Assets,Versions
+  baseURL: https://{subdomain}.fluxiom.com//api/{format}
+  tags: Storage, File, Technology, SaaS, internet, API Provider, Photos, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/fluxiom/apiassetsidversions-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/fluxiom/apiassetsidversions-post-openapi.md
-- name: Fluxiom API Get single asset version
-  x-api-slug: fluxiom-api
+- name: Fluxiom API - Get single asset version
+  x-api-slug: apiassetsidversionsvid-get
   description: Get single asset version
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/594-fluxiom.jpg
   humanURL: http://fluxiom.com
-  baseURL: https://{subdomain}.fluxiom.com//api/{format}//api/assets/ID/versions/VID
-  tags: Assets,Versions,VID
+  baseURL: https://{subdomain}.fluxiom.com//api/{format}
+  tags: Storage, File, Technology, SaaS, internet, API Provider, Photos, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/fluxiom/apiassetsidversionsvid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/fluxiom/apiassetsidversionsvid-get-openapi.md
-- name: Fluxiom API
-  x-api-slug: fluxiom-api
-  description: The Fluxiom API allows you to hook into Fluxiom and connect it with
-    other apps.  It can be used for retrieving and uploading assets, querying metadata,
-    and more.  This enables Fluxiom to easily integrate with your workflow and the
-    tools you already use.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/594-fluxiom.jpg
-  humanURL: http://fluxiom.com
-  baseURL: https://{subdomain}.fluxiom.com//api/{format}
-  tags: Versions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/versions/master/_listings/fluxiom/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://flickr.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://fluxiom.stack.network
 - type: x-base
   url: https://fluxiom.com/api/
 - type: x-blog

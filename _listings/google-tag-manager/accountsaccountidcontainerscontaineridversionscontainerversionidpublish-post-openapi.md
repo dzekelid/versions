@@ -163,6 +163,53 @@ paths:
       tags:
       - Containers
       - Versions
+  /accounts/{accountId}/containers/{containerId}/versions/{containerVersionId}/restore:
+    post:
+      summary: Restore Container Version
+      description: Restores a Container Version. This will overwrite the container's
+        current configuration (including its variables, triggers and tags). The operation
+        will not have any effect on the version that is being served (i.e. the published
+        version).
+      operationId: tagmanager.accounts.containers.versions.restore
+      x-api-path-slug: accountsaccountidcontainerscontaineridversionscontainerversionidrestore-post
+      parameters:
+      - in: path
+        name: accountId
+        description: The GTM Account ID
+      - in: path
+        name: containerId
+        description: The GTM Container ID
+      - in: path
+        name: containerVersionId
+        description: The GTM Container Version ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Containers
+      - Versions
+  /accounts/{accountId}/containers/{containerId}/versions/{containerVersionId}/undelete:
+    post:
+      summary: Undelete Container Version
+      description: Undeletes a Container Version.
+      operationId: tagmanager.accounts.containers.versions.undelete
+      x-api-path-slug: accountsaccountidcontainerscontaineridversionscontainerversionidundelete-post
+      parameters:
+      - in: path
+        name: accountId
+        description: The GTM Account ID
+      - in: path
+        name: containerId
+        description: The GTM Container ID
+      - in: path
+        name: containerVersionId
+        description: The GTM Container Version ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Containers
+      - Versions
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
